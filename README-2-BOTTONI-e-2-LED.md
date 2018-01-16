@@ -4,7 +4,7 @@ Riferimento:
 
 http://www.lucadentella.it/2015/07/21/arduino-delay-vs-millis/
 
-## Obiettivo minimo
+## Obiettivo minimale - riprodurre quanto fatto in classe
 
 - Creare il circuito con 2 pulsanti e 2 led
 - Copiare il codice con il delay() e caricarlo su Arduino
@@ -19,7 +19,10 @@ Successivamente:
 
 Saper spiegare e ricreare da 0 il codice realizzato
 
+## Esercizio per casa
+
+- Fare in modo che ogni pulsante accenda e spenga ogni LED TOT volte, diciamo 3 per 500 msec. Riprendere il codice copiato e adattato per le vacanze di Natale se necessario;
+
 ## Obiettivo avanzato
 
-- Fare in modo che ogni pulsante accenda e spenga ogni LED TOT volte, diciamo 3 per 500 msec. Riprendere il codice copiato e adattato per le vacanze di Natale;
 - Collegare un potenziometro e fare in modo che al variare del potenziometro vari la frequenza di accensione e spegnimento (da 0 a 500 msec ad esempio)
