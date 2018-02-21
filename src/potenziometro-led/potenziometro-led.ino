@@ -10,7 +10,7 @@ int t_led;
 int current_millis;
 int led_status = 0;
 
-enum led_status_map = { LOW, HIGH };
+int led_status_map[2] = { LOW, HIGH };
 
 // Do not touch this!
 const int MAX_POT_VALUE = 1024;
@@ -25,7 +25,7 @@ void setup() {
   led_status = 0;
 }
 
-int my_map_function(value) {
+int my_map_function(int value) {
     /* My custom `map` implementation */
     return value*MAX_LED_INTERVAL/MAX_POT_VALUE;
 }
